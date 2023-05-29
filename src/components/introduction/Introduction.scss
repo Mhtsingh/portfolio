@@ -1,0 +1,77 @@
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+  padding: 68px 0;
+  position: relative;
+  overflow: hidden;
+  .introwrapper {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: auto;
+    button {
+      display: flex;
+      gap: 10px;
+    }
+    .heading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      p {
+        font-size: 78px;
+        letter-spacing: -0.2px;
+        line-height: 90px;
+        margin-bottom: 43px;
+        font-weight: 300;
+        span {
+          color: #28e98c;
+        }
+      }
+    }
+    .subHeading {
+      display: flex;
+      p {
+        max-width: 480px;
+        margin-bottom: 31px;
+      }
+    }
+    .projectBtn {
+      width: 175px;
+      height: 175px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-top: 10%;
+      border-radius: 50%;
+      border: 1px solid #575757;
+      position: relative;
+      overflow: hidden;
+      margin-right: 15px;
+      opacity: 1;
+      transform: translate(0px, 0px);
+      cursor: pointer;
+      .textImg {
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      }
+      @keyframes rotate {
+        from {
+          -webkit-transform: rotate(360deg);
+        }
+        to {
+          -webkit-transform: rotate(0);
+        }
+      }
+      .arrowImg{
+        position: absolute;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+      }
+    }
+  }
+}

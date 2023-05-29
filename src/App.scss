@@ -1,0 +1,109 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    flex: 1;
+    margin-top: 20px;
+    // margin-left: 20px;
+    padding: 35px;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    position: sticky;
+    top: 40px;
+    .wrapper{
+      .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+          font-size: 30px;
+          font-weight: bold;
+        }
+        .designation{
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+      .imgwrapper{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      // border-radius: 20px;
+      // border: 1px solid wheat;
+        img{
+          width: 250px;
+          height: 250px;
+          color: white;
+          border-radius: 20px;
+        }
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        span{
+          font-size: 20px;
+        }
+      }
+      .social{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        button{
+          border-radius: 20px;
+          color: white;
+          &:hover{
+            color: green;
+          }
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+      .btnwrapper{
+        display: flex;
+       
+        margin-top: 20px;
+        button{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          font-size: 20px;
+          width: 250px;
+          background-color: #28e98c;
+          color: #000000;
+          border-radius: 20px;
+          &:hover{
+            color: #28e98c;
+            background-color: #000000;
+            border: 1px solid #28e98c;
+          }
+        }
+      }
+    }
+  }
+  .scrollBar{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    padding: 50px;
+    // margin-left: 100px;
+  }
+}  
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}

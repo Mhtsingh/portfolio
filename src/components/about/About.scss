@@ -1,0 +1,25 @@
+.about {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  .aboutWrapper {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: auto;
+    button {
+      display: flex;
+      gap: 10px;
+    }
+    .heading {
+      p {
+        font-size: 78px;
+        letter-spacing: -0.2px;
+        line-height: 90px;
+        margin-bottom: 43px;
+        font-weight: 300;
+        span {
+          color: #28e98c;;
+        }
+      }
+    }
+  }
+}
