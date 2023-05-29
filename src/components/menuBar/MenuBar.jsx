@@ -9,7 +9,6 @@ const MenuBar = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   }
-  
   const handleClickScroll1 = ()=>{
       const element1 = document.getElementById('about');
     if (element1 ) {

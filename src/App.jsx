@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skill/Skills";
+import profile from "./assets/Mohit-2.png"
 import { AiOutlineDownload,AiFillGithub,AiFillLinkedin } from "react-icons/ai";
 
 import MenuBar from "./components/menuBar/MenuBar";
@@ -18,7 +19,7 @@ function App() {
               <span className="designation">Software<br/> Developer</span>
             </div>
             <div className="imgwrapper">
-              <img src="src/assets/Mohit-2.png" alt="mohit png" />
+              <img src={profile} alt="mohit png" />
             </div>
             <div className="contact">
               <span className="email">Mhtsingh952@gmail.com</span>
