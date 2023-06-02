@@ -5,9 +5,11 @@ import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skill/Skills";
 import profile from "./assets/Mohit-2.png"
+import bgvideo1 from "./assets/bgvideo1.mp4"
 import { AiOutlineDownload,AiFillGithub,AiFillLinkedin } from "react-icons/ai";
 
 import MenuBar from "./components/menuBar/MenuBar";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
@@ -53,11 +55,12 @@ function App() {
           <Experience/>
           <Projects/>
           <Skills/>
+          <Footer/>
         </div>
         <MenuBar/>
       </div>
       <div>
-      <video src="src/assets/bgvideo1.mp4" autoPlay muted loop></video>
+      <video src={bgvideo1} autoPlay muted loop></video>
       </div>
     </>
   

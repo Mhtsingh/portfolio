@@ -1,5 +1,6 @@
 import "./Projects.scss";
 import { FaDesktop } from "react-icons/fa";
+import firstProject from "../../assets/firstProject.png";
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
         <div className="projectPort">
           <div className="firstProject">
           <a href="https://cryptoinfoeu.netlify.app/" target="__blank">
-          <img src="src/assets/firstProject.png" alt="project" />
+          <img src={firstProject} alt="project" />
           </a>
             <div className="projectBtn">
               <button>Reactjs</button>

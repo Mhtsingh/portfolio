@@ -1,5 +1,6 @@
 import "./Introduction.scss";
 import { FaHome, FaArrowDown } from "react-icons/fa";
+import roundtext from "../../assets/round-text.png";
 
 const Introduction = () => {
   const handleClickScroll = ()=>{
@@ -25,7 +26,7 @@ const Introduction = () => {
           simple like that!
         </div>
         <div className="projectBtn" onClick={handleClickScroll}>
-          <img className="textImg" src="src/assets/round-text.png" alt="" />
+          <img className="textImg" src={roundtext} alt="roundtext" />
           <FaArrowDown className="arrowImg" />
         </div>
       </div>

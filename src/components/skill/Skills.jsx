@@ -1,5 +1,15 @@
 import './Skills.scss'
 import { FaStackOverflow } from "react-icons/fa";
+import js from '../../assets/js.svg' ;
+import react from '../../assets/react.svg' ;
+import typescript from '../../assets/typescript.svg' ;
+import html5 from '../../assets/html5.svg' ;
+import css3 from '../../assets/css3.svg' ;
+import sass from '../../assets/sass.svg' ;
+import node from '../../assets/node.svg' ;
+import aws from '../../assets/aws.svg' ;
+
+
 
 const Skills = () => {
   return (
@@ -14,37 +24,37 @@ const Skills = () => {
     <div className="skillSet">
       
       <div className="skillName">
-      <span><img src="src/assets/js.svg" alt="" /></span>
+      <span><img src={js} alt="js" /></span>
       <p>JavaScript</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/react.svg" alt="" /></span>
+      <span><img src={react} alt="react" /></span>
       <p>Reactjs</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/typescript.svg" alt="" /></span>
+      <span><img src={typescript} alt="typescript" /></span>
       <p>Typescripy</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/html5.svg" alt="" /></span>
+      <span><img src={html5} alt="html" /></span>
       <p>Html</p>
       </div>
     </div>
     <div className="skillSet">
       <div className="skillName">
-      <span><img src="src/assets/css3.svg" alt="" /></span>
+      <span><img src={css3} alt="css3" /></span>
       <p>Css</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/sass.svg" alt="" /></span>
+      <span><img src={sass} alt="sass" /></span>
       <p>SASS</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/node.svg" alt="" /></span>
+      <span><img src={node} alt="node" /></span>
       <p>Nodejs</p>
       </div>
       <div className="skillName">
-      <span><img src="src/assets/aws.svg" alt="" /></span>
+      <span><img src={aws} alt="aws" /></span>
       <p>AWS</p>
       </div>
     </div>
