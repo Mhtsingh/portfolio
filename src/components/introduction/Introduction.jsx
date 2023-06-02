@@ -22,8 +22,7 @@ const Introduction = () => {
           </p>
         </div>
         <div className="subHeading">
-          I design and code beautifully simple things and i love what i do. Just
-          simple like that!
+        I create beautifully simple designs and write elegant code, and I absolutely love what I do. It's as simple as that! My passion lies in crafting visually appealing and user-friendly solutions that bring joy and satisfaction to users.
         </div>
         <div className="projectBtn" onClick={handleClickScroll}>
           <img className="textImg" src={roundtext} alt="roundtext" />

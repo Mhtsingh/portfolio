@@ -14,10 +14,11 @@ const About = () => {
         </div>
        <div className="subHeading">
         <p>
-          Since beginning my journey as a Web developer nearly couple of years ago,
-          I have done work for multiple organisations. I am quietly confident, naturally curious,
-          and perpetually working on improving my chopsone design problem at a
-          time.
+        In my journey as a web developer for the past couple of years, I have gained valuable 
+        experience working with multiple organizations. I possess a quiet confidence, 
+        fueled by a natural curiosity that drives me to continuously enhance my skills.
+         I am dedicated to solving design problems, one challenge at a time, as I constantly
+          strive for improvement in my craft.
         </p>
        </div>
       </div>
