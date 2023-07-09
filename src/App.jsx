@@ -6,6 +6,8 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skill/Skills";
 import profile from "./assets/Mohit-2.png"
 import bgvideo1 from "./assets/bgvideo1.mp4"
+import resume from "./assets/Mohit_Singh_CV.pdf"
+
 import { AiOutlineDownload,AiFillGithub,AiFillLinkedin } from "react-icons/ai";
 
 import MenuBar from "./components/menuBar/MenuBar";
@@ -24,23 +26,23 @@ function App() {
               <img src={profile} alt="mohit png" />
             </div>
             <div className="contact">
-              <span className="email">Mhtsingh952@gmail.com</span>
+              <a className="email" href= "mailto:mhtsingh952@gmail.com">Mhtsingh952@gmail.com</a>
               <span className="address">Heilbronn, Germany</span>
             </div>
             <div className="social">
               <button>
-                <a href="https://github.com/Mhtsingh">
+                <a href="https://github.com/Mhtsingh" target="__blank">
                 <AiFillGithub/>
                 </a>
               </button>
               <button>
-                <a href="https://www.linkedin.com/in/mohitsingh0/">
+                <a href="https://www.linkedin.com/in/mohitsingh0/" target="__blank">
                 <AiFillLinkedin/>
                 </a>
               </button>
             </div>
             <div className="btnwrapper">
-              <a href="" download>
+              <a href={resume} download>
               <button>
                 <AiOutlineDownload/>
                 Resume
