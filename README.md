@@ -17,7 +17,7 @@ This website is designed to provide an overview of who I am, my background, and 
 
 ## Technologies Used
 
-- HTML5 and CSS3: For structuring and styling the web pages.
+- HTML5 and SCSS: For structuring and styling the web pages.
 - ReactJs: For interactive elements and additional functionality.
 - [Netlify](https://www.netlify.com/): Hosting platform for deployment and continuous integration.
 
