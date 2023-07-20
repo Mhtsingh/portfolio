@@ -9,9 +9,7 @@ Welcome to my personal website! This repository contains the source code and con
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
