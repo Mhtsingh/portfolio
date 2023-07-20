@@ -27,4 +27,4 @@ This website is designed to provide an overview of who I am, my background, and 
 **Skills**: A overview of skills I know.
 
 
-If You like! DON'T forget to give staar
+If You like! DON'T forget to give star
