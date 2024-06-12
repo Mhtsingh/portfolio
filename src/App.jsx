@@ -42,7 +42,7 @@ function App() {
               </button>
             </div>
             <div className="btnwrapper" >
-              <a href={resume} download>
+              <a>
               <button disabled>
                 <AiOutlineDownload/>
                 Resume
