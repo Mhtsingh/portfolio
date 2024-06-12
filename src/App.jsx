@@ -41,9 +41,9 @@ function App() {
                 </a>
               </button>
             </div>
-            <div className="btnwrapper" disabled>
+            <div className="btnwrapper" >
               <a href={resume} download>
-              <button>
+              <button disabled>
                 <AiOutlineDownload/>
                 Resume
               </button>
